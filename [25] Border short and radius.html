@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Models</title>
+    <style>
+      div{
+        height:100px;
+        width:100px;
+        display:inline-block;
+        /*border-width: 2px;
+        border-style: solid;
+        border-color:darkorchid;*/
+        border: 2px solid darkorchid;
+
+      }
+      .second-div{
+        /*border-color: brown;
+        border-style: dashed;
+        border-width: 2px;*/
+        border: 2px dashed brown;
+        background-color: lightblue;
+        border-style: dashed;
+        text-align: center;
+        border-radius: 10%;
+      }
+      .first{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(225, 255, 0);
+        border: 2px solid red;
+        border-radius: 15px;
+      }
+      .second{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(225, 255, 0);
+        border: 2px solid red;
+         border-radius: 15px;
+      }
+      .third{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(225, 255, 0);
+        border: 2px solid red;
+        border-radius: 50%;
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background-color: pink;">
+      this is a div
+    </div>
+    <br><br>
+    <div class="second-div" style="background-color:lightblue;">
+     Hello
+    </div>
+    <br><br>
+    <div class="first">First</div>
+    <br><br>
+    <div class="second">Second</div>
+    <br><br>
+    <div class="third">Third</div>
+  </body>
+</html>
