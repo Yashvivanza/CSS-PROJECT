@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nested Borders</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: white;
+      margin: 0;
+    }
+
+    .layer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px dashed black;
+    }
+
+    .layer1 {
+      background-color: #5b00b5;
+      padding: 15px;
+    }
+
+    .layer2 {
+      background-color: #7f3fbf;
+      padding: 15px;
+    }
+
+    .layer3 {
+      background-color: #b87ce3;
+      padding: 15px;
+    }
+
+    .layer4 {
+      background-color: #e6d3f5;
+      padding: 15px;
+    }
+
+    .image-layer {
+      padding: 10px;
+      background-color: white;
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+      border: 1px dashed black;
+    }
+  </style>
+</head>
+<body>
+  <div class="layer layer1">
+    <div class="layer layer2">
+      <div class="layer layer3">
+        <div class="layer layer4">
+          <div class="image-layer">
+            <img src="https://fyf.tac-cdn.net/images/products/small/FTD-14-M6.jpg?auto=webp&quality=60&width=650" alt="Flower Vase">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
