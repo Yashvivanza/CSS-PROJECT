@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      width: 350px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin: 8px 0 5px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 12px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #4CAF50;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Student Registration</h2>
+    <form>
+      <label>Enrolment No:</label>
+      <input type="text" name="enrol" required>
+
+      <label>Student Name:</label>
+      <input type="text" name="name" required>
+
+      <label>Mobile No:</label>
+      <input type="tel" name="mobile" required>
+
+      <label>Email ID:</label>
+      <input type="email" name="email" required>
+
+      <label>Branch:</label>
+      <select name="branch" required>
+        <option value="">--Select Branch--</option>
+        <option>Computer Engineering</option>
+        <option>Electronics</option>
+        <option>Mechanical</option>
+        <option>Civil</option>
+      </select>
+
+      <label>Semester:</label>
+      <select name="semester" required>
+        <option value="">--Select Semester--</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
